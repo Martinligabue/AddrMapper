@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OSM House Number App</string>
+    <string name="welcome_message">Welcome to the OSM House Number Entry App</string>
+    <string name="enter_house_number">Enter House Number</string>
+    <string name="submit">Submit</string>
+    <string name="offline_mode">You are currently in Offline Mode</string>
+    <string name="gps_accuracy">GPS Accuracy: %1$s meters</string>
+    <string name="error_message">An error occurred. Please try again.</string>
+</resources>

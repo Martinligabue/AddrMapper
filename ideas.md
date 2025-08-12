@@ -244,3 +244,31 @@ dependencies {
 
 * Security tests for token storage & OAuth flow.
 
+structure?
+com.example.osmhousenumber/
+├── data/
+│   ├── repository/
+│   │   ├── LocationRepository.kt
+│   │   └── OsmRepository.kt
+│   ├── network/
+│   │   ├── OsmApiService.kt
+│   │   └── AuthService.kt
+│   └── local/
+│       └── PreferencesManager.kt
+├── domain/
+│   ├── model/
+│   │   ├── HouseNumber.kt
+│   │   └── Location.kt
+│   └── usecase/
+│       ├── SubmitHouseNumberUseCase.kt
+│       └── GetLocationUseCase.kt
+├── presentation/
+│   ├── ui/
+│   │   ├── MainActivity.kt
+│   │   ├── NumberInputFragment.kt
+│   │   └── LocationFragment.kt
+│   ├── viewmodel/
+│   │   └── MainViewModel.kt
+│   └── adapter/
+└── di/
+    └── AppModule.kt
